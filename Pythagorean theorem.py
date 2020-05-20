@@ -17,7 +17,7 @@ h = int(input('Hypotenuse: '))
 
 
 if (h != 0) and (h<b or h<p):
-    print('Hypotenuse cannot be lesser the the other two sides')
+    print('Hypotenuse cannot be lesser than the other two sides')
 elif (h == 0 and b == 0)or(b == 0 and p == 0)or(p == 0 and h == 0):
     print('Error Finding the value \n You Must Enter 2 Values \n Please Check And Try Again!')
 elif (h == 0 or (h>b and h>p)) and (h == 0 or b == 0  or p == 0):
